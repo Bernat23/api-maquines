@@ -1,8 +1,8 @@
-const Calaixos = require("../database/Calaixos")
+const Calaix = require("../database/Calaix")
 
 const getCalaixosForMaquina = () => {
     try {
-      const allCalaixos = Calaixos.getCalaixosForMaquina;
+      const allCalaixos = Calaix.getCalaixosForMaquina;
       return allCalaixos;
     } catch (error) {
       throw error;

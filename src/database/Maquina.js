@@ -1,6 +1,5 @@
 const DB = require("./db.json");
 
-const { saveToDatabase } = require("./utils");
 
 const getAllMaquines = (filterParams) => {
     try {
